@@ -1,0 +1,63 @@
+@media (max-width:767px) {
+    .filtersection {
+        flex-direction: column;
+    }
+}
+
+
+.App-header {
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+    background: #1a574d;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition-duration: 3s;
+    transition-property: position, left, right, top, z-index;
+    box-shadow: 0 19px 34px -15px #d2d2f2;
+    -webkit-box-shadow: 0 19px 34px -15px #d2d2f2;
+    -moz-box-shadow: 0 19px 34px -15px #d2d2f2;
+}
+.content-wrapper {
+    max-width: 1140px;
+    padding: 20px 0px;
+    margin: 0 auto;
+}
+button:disabled {
+    color: #ccc !important;
+}
+.pagination {
+    align-items: center;
+    justify-content: end;
+    margin: 7px 0px;
+}
+
+.pagination button {
+        position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.pagination select, .pagination input, .filtersection  input {
+
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
